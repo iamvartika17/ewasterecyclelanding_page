@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Remine India Pvt. Ltd.</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="utils.css">
+    <script src="https://kit.fontawesome.com/814152ea7a.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-circle-progress/1.2.2/circle-progress.min.js"></script>
+
+
+
+</head>
+
+<body class="background_color">
+    
+    <div class="bg">
+    <div class="container mx-auto">
+        <header>
+            <nav class="dis justify-between">
+                <div class="font-bold dis items-center text-blue">Remine</div>
+                <ul class="navbar dis items-center">
+                    <li>
+                        About Us
+                    </li>
+                    <li>Services</li>
+                    <li>Programs</li>
+                    <li>News & Articles</li>
+                    <li>Categories</li>
+                    <li>Contact Us</li>
+                    <li>FAQs</li>
+                </ul>
+            </nav>
+            <hr>
+        </header>
+        <main class="min-h-screen">
+            <section class="section1">
+            <div class="dis">
+            <div class="topleft dis justify-center flex-col px-2">
+                <h1 class="headi my-1 text-center">The optimal & Top-rated platform to recycle E-waste.</h1>
+                <p class="para text-center">Go ahead with our user-friendly & reliable services.</p><br>
+                    <button class="btn">CLICK HERE</button>
+            </div>
+            <div class="topright"></div>
+            <img src="images/battery.svg" alt="Image unable to load">
+        </div>
+    </section>
+</div> </div>
+            
+            <section class="section2">
+                <h1 class="text-center my-2">Basic Details</h1><br>
+                <!-- <img src="images/what.avif" class="wh"> -->
+                    <div class="dis justify-center">
+                        <div class="box"><h2>What</h2>
+                        <ul>
+                            <li>Lorem ipsum, dolor sit amet consectetur Lorem ipsum, dolor sit</li>
+                            <li>Lorem ipsum, dolor sit amet consectetur Lorem ipsum, dolor sit</li>
+                            <li>Lorem ipsum, dolor sit amet consectetur Lorem ipsum, dolor sit</li>
+                            <li>Lorem ipsum, dolor sit amet consectetur Lorem ipsum, dolor sit</li>
+                            
+                        </ul>
+                        
+                        <div class="know">
+                    <a href="#">Know More> </a>
+                </div></div>
+                        <div class="box"><h2>Why</h2>
+                            <ul>
+                                <li>Lorem ipsum, dolor sit amet consectetur Lorem ipsum, dolor sit</li>
+                                <li>Lorem ipsum, dolor sit amet consectetur Lorem ipsum, dolor sit</li>
+                                <li>Lorem ipsum, dolor sit amet consectetur Lorem ipsum, dolor sit</li>
+                                <li>Lorem ipsum, dolor sit amet consectetur Lorem ipsum, dolor sit</li>
+                                
+                            </ul>
+                            <div class="know">
+                        <a href="#">Know More ></a></div></div>
+                        <div class="box"><h2>How</h2><ul>
+                            <li>Lorem ipsum, dolor sit amet consectetur Lorem ipsum, dolor sit</li>
+                            <li>Lorem ipsum, dolor sit amet consectetur Lorem ipsum, dolor sit</li>
+                            <li>Lorem ipsum, dolor sit amet consectetur Lorem ipsum, dolor sit</li>
+                            <li>Lorem ipsum, dolor sit amet consectetur Lorem ipsum, dolor sit</li>
+                        </ul>
+                        <div class="know">
+                    <a href="#">Know More ></a></div>
+                    </div>
+            </section>
+            
+            <section class="section3">
+                <div class="wrapper">
+                  <div class="card">
+                    <div class="circle">
+                      <div class="bar"></div>
+                      <div class="boxe"><span></span></div>
+                    </div>
+                    <div class="text">Recycling Process</div>
+                  </div>
+                  <div class="card js">
+                    <div class="circle">
+                      <div class="bar"></div>
+                      <div class="boxe"><span></span></div>
+                    </div>
+                    <div class="text">Recycled every month</div>
+                  </div>
+                  
+                     <div class="card node">
+                    <div class="circle">
+                      <div class="bar"></div>
+                      <div class="boxe"><span></span></div>
+                    </div>
+                    <div class="text">User's Positive Feedback </div>
+                  </div>
+                  
+                  <div class="card react">
+                    <div class="circle">
+                      <div class="bar"></div>
+                      <div class="boxe"><span></span></div>
+                    </div>
+                    <div class="text">Monthly Engagement</div>
+                  </div>
+                </div>
+            
+                <script>
+                  let options = {
+                    startAngle: -1.55,
+                    size: 150,
+                    value: 0.85,
+                    fill: {gradient: ['#006400']}
+                  }
+                 $(".circle .bar").circleProgress(options).on('circle-animation-progress',
+                 function(event, progress, stepValue){
+                    $(this).parent().find("span").text(String(stepValue.toFixed(2).substr(2)) + "%");
+                  });
+                  $(".js .bar").circleProgress({
+                    value: 0.70
+                  });
+                  $(".node .bar").circleProgress({
+                    value: 0.90
+                  });      
+                  $(".react .bar").circleProgress({
+                    value: 0.60
+                  });
+                </script>
+
+            </section>
+        </div>
+        </main></div>
+        <footer>
+            <h2>Reduce...Reuse...Recycle</h2><br><br>
+            <div class="row">
+                <div class="col">
+                    <img src="images/foot.png" class="foot_img">
+                    <!-- <p class="img_below">Reliable Services thus far</p> -->
+                </div>
+                <div class="col">
+                    <h3>200+</h3>
+                    <p>Satisfied Users</p><br>
+                    <h3>24 Hrs</h3>
+                    <p>Availability</p><br>
+                    <h3>40+</h3>
+                    <p>Areas implemented</p><br>
+                </div>
+                <div class="col">
+                    <h4>Connect with Us</h4><br>
+                    <div class="social">
+                    <i class="fab fa-linkedin"></i>
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-facebook-f"></i>
+                    <i class="fab fa-instagram"></i>
+                </div>
+                </div>
+            </div>
+            <p class="copy_right">Copyright &copy; Remine India Pvt. Ltd. | All rights reserved</p>
+        </footer>
+</body>
+</html>
